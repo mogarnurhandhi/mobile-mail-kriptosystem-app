@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:background="@drawable/backgroundtext"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/subyek"
+        android:text="subyek pesan"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold" />
+
+
+    <TextView
+        android:id="@+id/message_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginTop="-1dp"
+        android:text="Mogar Nurhandhi"
+        android:textColor="@android:color/white"
+        android:textStyle="normal|bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/message_user"
+        android:layout_alignParentEnd="true"
+        android:text="12-10-1000"
+        android:textColor="@android:color/white"
+        android:id="@+id/message_time" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_user"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:id="@+id/message_text"
+        android:text="isi pesan email"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="18sp" />
+
+</RelativeLayout>
